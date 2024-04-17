@@ -23,6 +23,8 @@ const chairSlice = createSlice({
     },
     clearSelectedChair: (state) => {
       state.selectedChair = [];
+      console.log(state);
+      
       },
   },
   });
