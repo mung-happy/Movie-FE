@@ -1,10 +1,8 @@
-import FavoriteItem from "../../../components/Profile/FavoriteItem";
+import FavoriteItem from "../../../components/ProfileUser/FavoriteItem";
 
 const FavoritePage = () => {
   return (
     <div>
-      <FavoriteItem />
-      <FavoriteItem />
       <FavoriteItem />
     </div>
   );

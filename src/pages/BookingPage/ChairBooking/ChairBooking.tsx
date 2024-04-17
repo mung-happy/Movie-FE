@@ -43,7 +43,6 @@ const ChairBooking = ({ idShowing }: Props) => {
       .postBooking(data)
       .then((res) => {
         stopSpinner();
-        console.log(res);
         location.href = "/profile/purcharsed-tickets";
       })
       .catch((err) => {

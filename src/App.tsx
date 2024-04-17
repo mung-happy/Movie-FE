@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import AdminLayout from "./Layout/AdminLayout";
-
 import DetailPage from "./pages/DetailPage/DetailPage";
 import WebsiteLayout from "./Layout/WebsiteLayout";
 import HomePage from "./pages/HomePage/HomePage";
@@ -23,7 +22,6 @@ import CreateGenre from "./pages/Admin/Genres/CreateGenre";
 import UpdateGenre from "./pages/Admin/Genres/UpdateGenre";
 import ProfileLayout from "./Layout/ProfileLayout";
 import ProfileDetail from "./pages/ProfilePage/ProfileDetail/ProfileDetail";
-import ChangePassword from "./pages/ProfilePage/ChangePassword/ChangePassword";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import FavoritePage from "./pages/ProfilePage/FavoritePage/FavoritePage";
 import RatedPage from "./pages/ProfilePage/RatedPage/RatedPage";
@@ -34,6 +32,7 @@ import UpdateUser from "./pages/Admin/Users/UpdateUser";
 import PurchasedTicketsPage from "./pages/ProfilePage/PurchasedTicketsPage/PurchasedTicketsPage";
 import CelebrityPage from "./pages/CelebrityPage/CelebrityPage";
 import DetailCelebrityPage from "./pages/DetailCelebrityPage/DetailCelebrityPage";
+import ChangePassword from "./pages/ProfilePage/ChangePassword/ChangePassword";
 
 function App() {
   return (

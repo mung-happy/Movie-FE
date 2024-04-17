@@ -11,7 +11,7 @@ const NavbarUser = () => {
         <a href="#">
           <img
             className="lg:h-[120px] lg:w-[120px] w-[80px] h-[80px] rounded-full m-auto"
-            src="https://i.pinimg.com/236x/dc/cb/ee/dccbee93d3b5334a002e7e5aa9d89b5a.jpg"
+            src="https://cdn-icons-png.flaticon.com/512/219/219969.png"
           />
           <br />
         </a>

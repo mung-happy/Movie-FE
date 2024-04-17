@@ -1,9 +1,9 @@
-import NavbarUser from "../components/Profile/NavbarUser";
-import ProfileTitle from "../components/Profile/ProfileTitle";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { localUserService } from "../services/localService";
 import { Outlet } from "react-router-dom";
+import NavbarUser from "../components/ProfileUser/NavbarUser";
+import ProfileTitle from "../components/ProfileUser/ProfileTitle";
 
 const ProfileLayout = () => {
   const user = localUserService.get()?.user;

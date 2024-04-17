@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import PurchasedTicketsItem from "../../../components/Profile/PurchasedTickets/PurchasedTicketsItem";
+
 import bookingService from "../../../services/bookingService";
 import { localUserService } from "../../../services/localService";
 import { Ticket } from "../../../types/booking";
 import { Modal, message } from "antd";
 import { TbTicketOff } from "react-icons/tb";
 import { useLoading } from "../../../hooks/useSpinner";
+import PurchasedTicketsItem from "../../../components/ProfileUser/PurchasedTickets/PurchasedTicketsItem";
 
 const PurchasedTicketsPage = () => {
   const userLocal = localUserService.get()?.user;
